@@ -87,6 +87,10 @@ class UI{
             target.parentElement.parentElement.remove();
         }
     }
+    
+    static validateInputs(){
+        return true;
+    }
 }
 
 class Store{
