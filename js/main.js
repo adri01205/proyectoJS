@@ -57,7 +57,7 @@ function incluir_alumno() {
 
 //* Historial de mediciones *//
 
-/* class Entry{
+class Entry{
     constructor(horario,medicion){
         this.horario = horario;
         this.medicion = medicion;
@@ -86,6 +86,10 @@ class UI{
         if(target.classList.contains('delete')){
             target.parentElement.parentElement.remove();
         }
+    }
+    
+    static validateInputs(){
+        return true;
     }
 }
 
@@ -125,4 +129,4 @@ class Store{
 
         UI.clearInput();
 
-    }); */
+    });
